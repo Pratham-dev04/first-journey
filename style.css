@@ -1,0 +1,148 @@
+body {
+  background-color: #000;
+  margin: 0px;
+  padding: 0px;
+  font-family: calibri;
+  position: relative;
+}
+
+
+
+
+
+
+
+h1 {
+  color: #fff;
+  font-size: 60px;
+  font-family: calibri;
+  margin: 10px 0px;
+}
+
+h2 {
+  font-size: 50px;
+  background: linear-gradient(to right, #12c2e9, #c471ed, #f64f59);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: calibri;
+  width: 100%;
+  text-align: center;
+  margin: 10px 0px;
+  float: left;
+}
+
+h6 {
+  color: #fff;
+  text-align: center;
+  letter-spacing: 7px;
+  font-family: calibri;
+  margin: 20px 0px;
+  width: 100%;
+  float: left;
+}
+
+h5 {
+  color: #fff;
+  font-family: calibri;
+  font-size: 18px;
+  margin: 10px 0px;
+  width: 100%;
+}
+
+p {
+  color: #999;
+  font-family: calibri;
+  font-size: 18px;
+  margin: 10px 0px;
+}
+
+
+.back {
+  background: linear-gradient(to right, #12c2e9, #c471ed, #f64f59);
+  color: #fff;
+  font-family: calibri;
+  letter-spacing: 4px;
+
+
+}
+
+.gradient_box {
+  background: linear-gradient(to right, #12c2e9, #c471ed, #f64f59);
+  width: 95%;
+  height: auto;
+  border-radius: 10px;
+  outline: 8px solid rgba(255, 255, 255, .3);
+  transform: rotate(357deg);
+}
+
+.imgg {
+  border-radius: 15px;
+  transform: rotate(5deg);
+  width: 100%;
+  height: auto;
+}
+
+@media (max-width: 576px) {
+  .box {
+    margin-top: 2rem;
+    /* Adjust the top margin as needed */
+    display: flex;
+    justify-content: center;
+  }
+}
+
+.center-text-topline {
+  border-width: 2px;
+  border-top-style: solid;
+  border-image: linear-gradient(to right, #12c2e9, #c471ed, #f64f59) 1;
+  margin-top: 8rem;
+}
+
+
+.port:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 40px -10px rgba(0, 0, 0, 0.25);
+  transition: linear 0.3s;
+}
+
+.port-1 {
+  background: linear-gradient(to right, #12c2e9, #c471ed, #f64f59);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+.but { 
+ 
+   letter-spacing:4px; 
+   background: linear-gradient(#222, #222), linear-gradient(to right, #12c2e9, #c471ed, #f64f59);
+   background-origin: padding-box, border-box;
+   background-repeat: no-repeat;
+   border-bottom: 2px solid transparent;
+  text-decoration: none;}
+
+
+.social{
+
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  align-items: center;
+  border-radius: 50%;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  font-size: 13px;
+
+  
+  }
+
+
+  .social:hover {
+    transition: all 0.3s ease; /* Smooth transition */
+  background: linear-gradient(to right, #12c2e9, #c471ed, #f64f59);
+  transform: scale(1.1); /* Slightly enlarge the icon on hover */
+
+
+    
+}
+
